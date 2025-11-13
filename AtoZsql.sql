@@ -9,11 +9,11 @@
 -- ------------------------------------------------------------
 
 -- 0) 스키마 생성 (원하면 DB 이름 변경)
-CREATE DATABASE IF NOT EXISTS traffic_safety
+CREATE DATABASE IF NOT EXISTS project_1
   DEFAULT CHARACTER SET utf8mb4
   DEFAULT COLLATE utf8mb4_0900_ai_ci;
 
-USE traffic_safety;
+USE project_1;
 
 -- 1) REGION (시군구 마스터)
 DROP TABLE IF EXISTS REGION;
