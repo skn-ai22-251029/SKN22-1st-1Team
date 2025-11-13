@@ -8,12 +8,12 @@ import os
 try:
     # `my_project/` 폴더에서 `python test_visualizer.py`를 실행한다고 가정
     # `my_project/analyzer/` 폴더의 `visualizer.py`를 찾음
-    from analyzer.visualizer import AccidentVisualizer
+    from web_design.visualizer import AccidentVisualizer
     print("성공: 'analyzer.visualizer'를 찾았습니다.")
 except ImportError:
     # 만약 `analyzer` 폴더 없이 `visualizer.py`가 같은 폴더에 있다면
     try:
-        from visualizer import AccidentVisualizer
+        from web_design.visualizer import AccidentVisualizer
         print("성공: 'visualizer'를 찾았습니다. (같은 폴더)")
     except ImportError as e:
         print(f"오류: 'analyzer/visualizer.py' 또는 'visualizer.py'를 찾을 수 없습니다.")
@@ -130,7 +130,7 @@ else:
     print(f"실패: 차트 생성 중 오류: {title4}")
 
 
-# --- 9. [신규] 테스트 6: 산점도 (Case 4: 수치형 vs 수치형) ---
+# --- 9. [신규] 테스트 6: 2D 히트맵 (Case 4: 수치형 vs 수치형) ---
 print("\n" + "="*30)
 print("테스트 6: 산점도 (Case 4)")
 print("변수: 'ACCIDENT.SevereInjuryCount' vs 'ACCIDENT.MinorInjuryCount'")
