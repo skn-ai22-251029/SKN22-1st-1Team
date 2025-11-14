@@ -67,7 +67,9 @@ Repository for SKN22-1st-1Team
 <img src="image/Web_flowchart.png" width="60%">
 
 ## **📖ERD**
-<img src="image/Varchar.jpg" width="50%">
+<img src="image/ERD.png" width="60%">
+
+
 
 ## 👪 팀원
 
