@@ -42,4 +42,4 @@ Schema: /repository/schema.sql
 상해 정도 기반 사고 심각도 분류
 
 # ERD
-![alt text](Varchar.jpg)
+![alt text]<img src="Varchar.jpg" width="60%">
