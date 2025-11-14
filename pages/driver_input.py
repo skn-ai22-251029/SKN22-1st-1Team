@@ -31,7 +31,7 @@ if project_root not in sys.path:
 
 try:
     # 'web_design/' 폴더에 있는 'visualizer.py' 파일에서 클래스를 가져옵니다.
-    from visualizer import AccidentVisualizer
+    from web_design.visualizer import AccidentVisualizer
 except ImportError:
     st.error("치명적 오류: 'web_design/visualizer.py' 모듈을 찾을 수 없습니다. 파일 경로를 확인하세요.")
     st.stop() # 모듈이 없으면 앱 실행 중지
