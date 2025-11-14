@@ -17,7 +17,7 @@ def get_base64_of_bin_file(bin_file):
 
 # 현재 파일 위치 기준 이미지 경로
 current_dir = os.path.dirname(__file__)
-img_path = os.path.join(current_dir, "safecar1.png")   # 배경 이미지 파일
+img_path = os.path.join("web_design/", "safecar1.png")   # 배경 이미지 파일
 img_base64 = get_base64_of_bin_file(img_path)
 
 # CSS 정의 (사이드바, 상단 메뉴 숨김 포함)
