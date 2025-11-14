@@ -2,7 +2,7 @@
 Repository for SKN22-1st-1Team
 
 # 🚘**교통사고 현황과 안전 팁을 제공하는 통합 정보 플랫폼**
-<img src="safecar1.png" width="53%">
+<img src="image/safecar1.png" width="53%">
 #### 사고/운전자/지역 유형별 데이터를 MySQL 기반으로 정규화하여.
 #### 조회·분석·시각화에 활용하기 위한 데이터베이스 구축 프로젝트입니다.
 
@@ -63,13 +63,14 @@ Repository for SKN22-1st-1Team
 
 
 ## **WorkFlow**
-<img src="Web_flowchart.png" width="60%">
+<img src="image/Web_flowchart.png" width="60%">
 
 ## **📖ERD**
-<img src="Varchar.jpg" width="50%">
+<img src="image/Varchar.jpg" width="50%">
 
 ## 👪 팀원
 
 |        이신재        |        이준서        |        한승혁        |        황하령        |
 |:--------------------:|:--------------------:|:--------------------:|:--------------------:|
 | `@Codingcooker74`    | `@Leejunseo84`       | `@gksshing`          | `@harry1749`         |
+
